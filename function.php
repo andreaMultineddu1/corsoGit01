@@ -23,7 +23,6 @@ function divisione (n1,n2)
     } else {
         return "Error";
     }
-    
 }
 
 ?>
