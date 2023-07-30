@@ -1,3 +1,4 @@
+<!-- Aggiungo un commento da Mario -->
 <php
 
 function addizione (n1,n2)
