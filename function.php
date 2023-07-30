@@ -1,3 +1,4 @@
+<!-- funzione per GitHub -->
 <php
 
 function addizione (n1,n2)
