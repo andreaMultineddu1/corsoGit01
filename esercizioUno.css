@@ -1,0 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
+p:first-of-type {
+    color: red;
+}
