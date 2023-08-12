@@ -3,7 +3,7 @@
 }
 
 body {
-    max-width: 320px;
+    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -16,6 +16,10 @@ header div.image-container{
     float: left;
     height: 40px;
     margin: 20px 10px;
+}
+
+header div.image-container img {
+    margin: 10px 0;
 }
 
 header ul {
