@@ -43,3 +43,8 @@ header ul li a {
     text-decoration: none;
     color: black;
 }
+
+main #text-container {
+    margin: 10px 0;
+    background-color: grey;
+}
