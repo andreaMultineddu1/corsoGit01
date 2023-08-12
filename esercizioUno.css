@@ -8,14 +8,14 @@ body {
 }
 
 header {
-    height: 80px;
+    height: 120px;
     background-color: blue;
 }
 
 header div.image-container{
     float: left;
     height: 40px;
-    margin: 20px 10px;
+    margin: 40px 10px;
 }
 
 header div.image-container img {
@@ -32,7 +32,7 @@ header ul li {
     width: 50px;
     height: 40px;
     float: right;
-    margin: 20px 10px;
+    margin: 40px 10px;
     background-color: orange;
     text-align: center;
     line-height: 40px;
@@ -47,4 +47,9 @@ header ul li a {
 main #text-container {
     margin: 10px 0;
     background-color: grey;
+    padding: 10px 5px;
+}
+
+main #text-container h2 {
+    margin: 20px 0;
 }
