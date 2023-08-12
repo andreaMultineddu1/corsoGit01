@@ -56,15 +56,21 @@ main #text-container h2 {
     font-size: 1.5em;
 }
 
-main #boxuno {
+main section.box {
     width: 100%;
     padding: 10px;
-    background-color: beige;
-    object-fit: contain;
 }
 
-main #boxuno h3 {
+main #boxuno {
+    background-color: beige;
+}
+
+main section.box h3 {
     text-align: center;
     margin: 20px 0;
     font-size: 1.3em;
+}
+
+main section.box img {
+    object-fit: contain;
 }
