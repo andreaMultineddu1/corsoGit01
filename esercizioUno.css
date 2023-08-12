@@ -47,9 +47,11 @@ header ul li a {
 main #text-container {
     margin: 10px 0;
     background-color: grey;
-    padding: 10px 5px;
+    padding: 10px;
+    font-size: 1.1em;
 }
 
 main #text-container h2 {
     margin: 20px 0;
+    font-size: 1.4em;
 }
