@@ -12,27 +12,23 @@ header {
     background-color: blue;
 }
 
-header img {
-    display: inline-block;
+header div.image-container{
     float: left;
-    vertical-align: middle;
+    height: 40px;
+    margin: 20px 10px;
 }
 
 header ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 header ul li {
     width: 50px;
     height: 40px;
     float: right;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 10px;
+    margin: 20px 10px;
     background-color: orange;
     text-align: center;
     line-height: 40px;
