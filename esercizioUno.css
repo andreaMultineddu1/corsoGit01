@@ -8,18 +8,29 @@ body {
 }
 
 header {
-    height: 100px;
+    height: 80px;
     background-color: blue;
+    vertical-align:middle;
 }
 
 header img {
+    display: inline-block;
     float: left;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 header ul li {
     width: 50px;
+    float: right;
+    display: inline-block;
     margin: 0 10px;
     background-color: orange;
+    text-align: center;
 }
 
 header ul li a {
