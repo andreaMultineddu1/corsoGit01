@@ -59,9 +59,12 @@ main #text-container h2 {
 main #boxuno {
     width: 100%;
     padding: 10px;
+    background-color: beige;
+    object-fit: contain;
 }
 
 main #boxuno h3 {
     text-align: center;
     margin: 20px 0;
+    font-size: 1.3em;
 }
