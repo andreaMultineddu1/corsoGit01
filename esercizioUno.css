@@ -2,6 +2,28 @@
     box-sizing: border-box;
 }
 
-p:first-of-type {
-    color: red;
+body {
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    background-color: blue;
+}
+
+header img {
+    float: left;
+}
+
+header ul li {
+    width: 50px;
+    margin: 0 10px;
+    background-color: orange;
+}
+
+header ul li a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
 }
