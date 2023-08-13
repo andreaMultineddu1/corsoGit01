@@ -91,6 +91,7 @@ footer {
 @media all and (min-width: 600px) {
     main section.box {
         float: left;
+        width: 50%;
     }
 
     main section.clearfix::after {
