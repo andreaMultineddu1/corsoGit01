@@ -87,3 +87,15 @@ footer {
     text-align: center;
     background-color: green;
 }
+
+@media all and (min-width: 600px) {
+    main section.box {
+        float: left;
+    }
+
+    main section.clearfix::after {
+        content: "";
+        display: block;
+        clear: both;    
+    }
+}
