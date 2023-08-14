@@ -94,9 +94,16 @@ footer {
         width: 50%;
     }
 
+    main section.box:nth-of-type(even) {
+        margin-left: 10px;
+        width: calc(50% - 10px);
+    }
+
     main section.clearfix::after {
         content: "";
         display: block;
         clear: both;    
     }
+
+
 }
