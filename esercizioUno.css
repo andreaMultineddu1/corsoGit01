@@ -110,10 +110,18 @@ footer {
 }
 
 @media all and (min-width: 1024px) {
+    main {
+        margin: 10px 0;
+    }
+
     main #text-container {
-        margin: 10px 5px;
+        margin: 0 5px;
         float: left;
         width: calc(50% - 10px);
+    }
+
+    main #box-container {
+        height: 100%;
     }
 
     main section.box {
