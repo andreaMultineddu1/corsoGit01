@@ -112,12 +112,12 @@ footer {
 @media all and (min-width: 1024px) {
     main {
         margin: 10px 0;
+        overflow: auto;
     }
 
     main #text-container {
         margin: 0 5px;
-        display: inline;
-        overflow: auto;
+        float: right;
         width: calc(50% - 10px);
     }
 
@@ -128,5 +128,10 @@ footer {
     main section.box {
         width: calc(25% - 5px);
         height: 100%;
+    }
+
+    main section #boxdue {
+        float: right;
+        z-index: 100;
     }
 }
