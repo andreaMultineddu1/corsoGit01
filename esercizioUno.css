@@ -126,5 +126,6 @@ footer {
 
     main section.box {
         width: calc(25% - 5px);
+        height: 100%;
     }
 }
