@@ -117,6 +117,7 @@ footer {
     main #text-container {
         margin: 0 5px;
         display: inline;
+        overflow: auto;
         width: calc(50% - 10px);
     }
 
