@@ -107,6 +107,16 @@ footer {
         display: block;
         clear: both;    
     }
+}
 
+@media all and (min-width: 1024px) {
+    main #text-container {
+        margin: 10px 5px;
+        float: left;
+        width: calc(50% - 10px);
+    }
 
+    main section.box {
+        width: calc(25% - 5px);
+    }
 }
