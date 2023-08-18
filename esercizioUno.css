@@ -91,12 +91,15 @@ footer {
 @media all and (min-width: 600px) {
     main section.box {
         float: left;
-        width: 50%;
+        width: calc(50% - 5px);
     }
 
     main section.box:nth-of-type(even) {
-        margin-left: 10px;
-        width: calc(50% - 10px);
+        margin-left: 5px;
+    }
+
+    main section.box:nth-of-type(odd) {
+        margin-right: 5px;
     }
 
     main section.clearfix::after {
